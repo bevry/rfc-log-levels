@@ -1,6 +1,6 @@
 {
   "name": "rfc-log-levels",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A map of log level aliases matched to their numeric values. Follows the RFC Standard.",
   "homepage": "https://github.com/bevry/log-levels",
   "license": "MIT",
