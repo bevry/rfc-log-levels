@@ -60,7 +60,7 @@ const logLevels = require('rfc-log-levels')
 console.log(logLevels.info) // 6
 ```
 
-Refer to [`index.json`](https://github.com/bevry/log-levels/blob/master/index.json) for the full listing.
+Refer to [`index.json`](https://github.com/bevry/log-levels/blob/master/source/index.json) for the full listing.
 
 <!-- HISTORY/ -->
 
