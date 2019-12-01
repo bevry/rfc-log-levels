@@ -7,11 +7,11 @@
 
 <!-- BADGES/ -->
 
-<span class="badge-travisci"><a href="http://travis-ci.com/bevry/log-levels" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/com/bevry/log-levels/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.com/bevry/rfc-log-levels" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/com/bevry/rfc-log-levels/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/rfc-log-levels" title="View this project on NPM"><img src="https://img.shields.io/npm/v/rfc-log-levels.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/rfc-log-levels" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/rfc-log-levels.svg" alt="NPM downloads" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/bevry/log-levels" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/bevry/log-levels.svg" alt="Dependency Status" /></a></span>
-<span class="badge-daviddmdev"><a href="https://david-dm.org/bevry/log-levels#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/bevry/log-levels.svg" alt="Dev Dependency Status" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/bevry/rfc-log-levels" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/bevry/rfc-log-levels.svg" alt="Dependency Status" /></a></span>
+<span class="badge-daviddmdev"><a href="https://david-dm.org/bevry/rfc-log-levels#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/bevry/rfc-log-levels.svg" alt="Dev Dependency Status" /></a></span>
 <br class="badge-separator" />
 <span class="badge-patreon"><a href="https://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 <span class="badge-flattr"><a href="https://flattr.com/profile/balupton" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
@@ -69,7 +69,7 @@ Refer to [`index.json`](https://github.com/bevry/log-levels/blob/master/source/i
 
 <h2>History</h2>
 
-<a href="https://github.com/bevry/log-levels/blob/master/HISTORY.md#files">Discover the release history by heading on over to the <code>HISTORY.md</code> file.</a>
+<a href="https://github.com/bevry/rfc-log-levels/blob/master/HISTORY.md#files">Discover the release history by heading on over to the <code>HISTORY.md</code> file.</a>
 
 <!-- /HISTORY -->
 
@@ -78,7 +78,7 @@ Refer to [`index.json`](https://github.com/bevry/log-levels/blob/master/source/i
 
 <h2>Contribute</h2>
 
-<a href="https://github.com/bevry/log-levels/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
+<a href="https://github.com/bevry/rfc-log-levels/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /CONTRIBUTE -->
 
@@ -91,7 +91,7 @@ Refer to [`index.json`](https://github.com/bevry/log-levels/blob/master/source/i
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/log-levels/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/log-levels">view contributions</a></li></ul>
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/rfc-log-levels/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/rfc-log-levels">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -110,10 +110,10 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/log-levels/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/log-levels">view contributions</a></li>
-<li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a> — <a href="https://github.com/bevry/log-levels/commits?author=dependabot-preview[bot]" title="View the GitHub contributions of dependabot-preview[bot] on repository bevry/log-levels">view contributions</a></li></ul>
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/rfc-log-levels/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/rfc-log-levels">view contributions</a></li>
+<li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a> — <a href="https://github.com/bevry/rfc-log-levels/commits?author=dependabot-preview[bot]" title="View the GitHub contributions of dependabot-preview[bot] on repository bevry/rfc-log-levels">view contributions</a></li></ul>
 
-<a href="https://github.com/bevry/log-levels/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
+<a href="https://github.com/bevry/rfc-log-levels/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /BACKERS -->
 

@@ -1,8 +1,8 @@
 {
   "name": "rfc-log-levels",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A map of log level aliases matched to their numeric values. Follows the RFC Standard.",
-  "homepage": "https://github.com/bevry/log-levels",
+  "homepage": "https://github.com/bevry/rfc-log-levels",
   "license": "MIT",
   "keywords": [
     "log",
@@ -63,11 +63,11 @@
     "dependabot-preview[bot] (http://github.com/apps/dependabot-preview)"
   ],
   "bugs": {
-    "url": "https://github.com/bevry/log-levels/issues"
+    "url": "https://github.com/bevry/rfc-log-levels/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bevry/log-levels.git"
+    "url": "https://github.com/bevry/rfc-log-levels.git"
   },
   "engines": {
     "node": ">=8"
@@ -89,10 +89,10 @@
   "main": "source/index.json",
   "browser": "source/index.json",
   "devDependencies": {
-    "assert-helpers": "^5.6.0",
+    "assert-helpers": "^5.7.0",
     "kava": "^4.2.0",
-    "projectz": "^1.12.0",
-    "valid-directory": "^1.3.0"
+    "projectz": "^1.13.0",
+    "valid-directory": "^1.4.0"
   },
   "scripts": {
     "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out ./.next",
