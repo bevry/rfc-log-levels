@@ -28,6 +28,26 @@
 
 A map of log level aliases matched to their numeric values. [Follows the RFC Standard.](http://www.faqs.org/rfcs/rfc3164.html)
 
+## Usage
+
+[Complete API Documentation.](http://master.rfc-log-levels.bevry.surge.sh/docs/globals.html)
+
+```javascript
+// get a log level from a name or number
+import getLevelInfo from 'rfc-log-levels'
+console.log(getLevelInfo('info')) // { levelNumber: 6, levelName: "info" }
+console.log(getLevelInfo(6)) // { levelNumber: 6, levelName: "info" }
+
+// get the official RFC log levels from named export
+import { rfcLogLevels } from 'rfc-log-levels'
+console.log(rfcLogLevels.info) // 6
+
+// get the official RFC log levels from the json file
+import rfcLogLevels from 'rfc-log-levels/index.json'
+console.log(rfcLogLevels.info) // 6
+```
+
+Refer to [`index.json`](https://github.com/bevry/rfc-log-levels/blob/master/index.json) for the full listing, which is automatically extracted from [`source/index.ts`](https://github.com/bevry/rfc-log-levels/blob/master/source/index.ts).
 
 <!-- INSTALL/ -->
 
@@ -36,14 +56,31 @@ A map of log level aliases matched to their numeric values. [Follows the RFC Sta
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
 <ul>
 <li>Install: <code>npm install --save rfc-log-levels</code></li>
-<li>Require: <code>require('rfc-log-levels')</code></li>
+<li>Import: <code>import pkg from ('rfc-log-levels')</code></li>
+<li>Require: <code>const pkg = require('rfc-log-levels').default</code></li>
 </ul>
+
+<a href="https://www.pika.dev/cdn" title="100% Native ES Modules CDN"><h3>pika</h3></a>
+
+``` html
+<script type="module">
+    import pkg from '//cdn.pika.dev/rfc-log-levels/^3.0.0'
+</script>
+```
+
+<a href="https://unpkg.com" title="unpkg is a fast, global content delivery network for everything on npm"><h3>unpkg</h3></a>
+
+``` html
+<script type="module">
+    import pkg from '//unpkg.com/rfc-log-levels@^3.0.0'
+</script>
+```
 
 <a href="https://jspm.io" title="Native ES Modules CDN"><h3>jspm</h3></a>
 
 ``` html
 <script type="module">
-    import * as pkg from '//dev.jspm.io/rfc-log-levels'
+    import pkg from '//dev.jspm.io/rfc-log-levels@3.0.0'
 </script>
 ```
 
@@ -51,20 +88,13 @@ A map of log level aliases matched to their numeric values. [Follows the RFC Sta
 
 <p>This package is published with the following editions:</p>
 
-<ul><li><code>rfc-log-levels</code> aliases <code>rfc-log-levels/source/index.json</code></li>
-<li><code>rfc-log-levels/source/index.json</code> is JSON</li></ul>
+<ul><li><code>rfc-log-levels/source/index.ts</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> source code with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li>
+<li><code>rfc-log-levels/edition-browsers/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against <a href="https://en.wikipedia.org/wiki/ECMAScript#10th_Edition_-_ECMAScript_2019" title="ECMAScript ES2019">ES2019</a> for web browsers with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li>
+<li><code>rfc-log-levels</code> aliases <code>rfc-log-levels/edition-esnext/index.js</code></li>
+<li><code>rfc-log-levels/edition-esnext/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against <a href="https://en.wikipedia.org/wiki/ECMAScript#ES.Next" title="ECMAScript Next">ESNext</a> for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li></ul>
 
 <!-- /INSTALL -->
 
-
-## Usage
-
-``` javascript
-const logLevels = require('rfc-log-levels')
-console.log(logLevels.info) // 6
-```
-
-Refer to [`index.json`](https://github.com/bevry/log-levels/blob/master/source/index.json) for the full listing.
 
 <!-- HISTORY/ -->
 

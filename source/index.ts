@@ -3,9 +3,9 @@
  */
 export interface LevelInfo {
 	/** the log level number */
-	levelNumber: number;
+	levelNumber: number
 	/** the log level name */
-	levelName: string;
+	levelName: string
 }
 
 /**
@@ -13,7 +13,7 @@ export interface LevelInfo {
  * Aliases should come after names
  */
 export interface LevelsMap {
-	[name: string]: number;
+	[name: string]: number
 }
 
 /** Default levels are according to the [RFC Standard](http://www.faqs.org/rfcs/rfc3164.html) */
@@ -30,8 +30,8 @@ export const rfcLogLevels: LevelsMap = {
 	crit: 2,
 	err: 3,
 	warn: 4,
-	note: 5
-};
+	note: 5,
+}
 
 /**
  * Determine the level number from a level name
@@ -41,9 +41,9 @@ export function getLevelNumber(
 	levels: LevelsMap = rfcLogLevels
 ): number | null {
 	if (levels[name] == null) {
-		return null;
+		return null
 	} else {
-		return levels[name];
+		return levels[name]
 	}
 }
 
@@ -56,13 +56,13 @@ export function getLevelName(
 ): string | null {
 	for (const name in levels) {
 		if (levels.hasOwnProperty(name)) {
-			const value = levels[name];
+			const value = levels[name]
 			if (value === number) {
-				return name;
+				return name
 			}
 		}
 	}
-	return null;
+	return null
 }
 
 /**
@@ -89,22 +89,22 @@ export default function getLevelInfo(
 	level: string | number,
 	levels: LevelsMap = rfcLogLevels
 ): LevelInfo | null {
-	if (typeof level === "string") {
+	if (typeof level === 'string') {
 		// get number from input name
-		const levelNumber = getLevelNumber(level, levels);
-		if (levelNumber == null) return null;
+		const levelNumber = getLevelNumber(level, levels)
+		if (levelNumber == null) return null
 		// input name could have been shortened, so get the expanded name
-		const levelName = getLevelName(levelNumber, levels);
-		if (levelName == null) return null;
+		const levelName = getLevelName(levelNumber, levels)
+		if (levelName == null) return null
 		// return
-		return { levelNumber, levelName };
-	} else if (typeof level === "number") {
+		return { levelNumber, levelName }
+	} else if (typeof level === 'number') {
 		// get the expanded name from the input number
-		const levelName = getLevelName(level, levels);
-		if (levelName == null) return null;
+		const levelName = getLevelName(level, levels)
+		if (levelName == null) return null
 		// return
-		return { levelNumber: level, levelName };
+		return { levelNumber: level, levelName }
 	} else {
-		return null;
+		return null
 	}
 }

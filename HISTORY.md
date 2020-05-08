@@ -4,6 +4,7 @@
 
 -   Breaking Change: Rewrote in TypeScript, JSON export is now at `rfc-log-levels/index.json`
 -   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+-   Minimum required node version changed from `node: >=8` to `node: >=10` to keep up with mandatory ecosystem changes
 
 ## v2.3.0 2019 December 10
 
