@@ -1,5 +1,10 @@
 # History
 
+## v3.0.0 2020 May 8
+
+-   Breaking Change: Rewrote in TypeScript, JSON export is now at `rfc-log-levels/index.json`
+-   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+
 ## v2.3.0 2019 December 10
 
 -   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
