@@ -11,7 +11,7 @@ const jsonFilePath = join(dir, '..', 'index.json')
 kava.suite('rfc-log-levels', function (suite, test) {
 	test('write the json file', function (done) {
 		writeFile(jsonFilePath, JSON.stringify(rfcLogLevels, null, '  '), (err) =>
-			err ? done(err) : done(),
+			err ? done(err) : done()
 		)
 	})
 })

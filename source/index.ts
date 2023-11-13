@@ -38,7 +38,7 @@ export const rfcLogLevels: LevelsMap = {
  */
 export function getLevelNumber(
 	name: string,
-	levels: LevelsMap = rfcLogLevels,
+	levels: LevelsMap = rfcLogLevels
 ): number | null {
 	if (levels[name] == null) {
 		return null
@@ -52,7 +52,7 @@ export function getLevelNumber(
  */
 export function getLevelName(
 	number: number,
-	levels: LevelsMap = rfcLogLevels,
+	levels: LevelsMap = rfcLogLevels
 ): string | null {
 	for (const name in levels) {
 		if (levels.hasOwnProperty(name)) {
@@ -87,7 +87,7 @@ export function getLevelName(
  */
 export default function getLevelInfo(
 	level: string | number,
-	levels: LevelsMap = rfcLogLevels,
+	levels: LevelsMap = rfcLogLevels
 ): LevelInfo | null {
 	if (typeof level === 'string') {
 		// get number from input name
