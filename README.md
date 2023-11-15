@@ -63,7 +63,7 @@ Refer to [`index.json`](https://github.com/bevry/rfc-log-levels/blob/master/inde
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.skypack.dev/rfc-log-levels@^3.19.0'
+    import pkg from '//cdn.skypack.dev/rfc-log-levels@^3.20.0'
 </script>
 ```
 
@@ -71,7 +71,7 @@ Refer to [`index.json`](https://github.com/bevry/rfc-log-levels/blob/master/inde
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/rfc-log-levels@^3.19.0'
+    import pkg from '//unpkg.com/rfc-log-levels@^3.20.0'
 </script>
 ```
 
@@ -79,7 +79,7 @@ Refer to [`index.json`](https://github.com/bevry/rfc-log-levels/blob/master/inde
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/rfc-log-levels@3.19.0'
+    import pkg from '//dev.jspm.io/rfc-log-levels@3.20.0'
 </script>
 ```
 
